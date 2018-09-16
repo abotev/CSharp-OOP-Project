@@ -4,7 +4,12 @@ namespace Shop.Data.BusinessModels
 {
     public class CandyShop : BaseShop
     {
-        public List<Person> Children { get; set; }
+        public CandyShop()
+        {
+            this.CandySpecialists = new List<Person>();
+        }
+
+        public List<Person> CandySpecialists { get; set; }
 
         public AirConditioner AirConditioner { get; set; }
 

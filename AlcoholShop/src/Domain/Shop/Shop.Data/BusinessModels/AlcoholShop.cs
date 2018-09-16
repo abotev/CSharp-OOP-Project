@@ -4,6 +4,12 @@ namespace Shop.Data.BusinessModels
 {
     public class AlcoholShop : BaseShop
     {
+        public AlcoholShop()
+        {
+            this.Waitresses = new List<Person>();
+            this.Tables = new List<Table>();
+
+        }
 
         public string Name { get; set; }
 

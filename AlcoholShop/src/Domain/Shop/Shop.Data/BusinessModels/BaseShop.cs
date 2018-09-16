@@ -10,6 +10,7 @@ namespace Shop.Data.BusinessModels
         public BaseShop()
         {
             this.Goods = new List<Good>();
+            this.Clients = new List<Person>();
         }
 
         public Company Company { get; set; }

@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Shop.Data.BusinessModels
+﻿namespace Shop.Data.BusinessModels
 {
-    public class AirConditioner
+    public class AirConditioner : Appliance
     {
+        
     }
 }
