@@ -1,5 +1,4 @@
-﻿using Shop.Data.Interfaces;
-using System;
+﻿using System;
 
 namespace Shop.Data.BusinessModels
 {

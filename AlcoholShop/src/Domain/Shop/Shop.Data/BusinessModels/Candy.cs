@@ -1,8 +1,8 @@
 ﻿namespace Shop.Data.BusinessModels
 {
-    public class Alcohol : Good
+    public class Candy : Good
     {
-        public Alcohol(string name, decimal price)
+        public Candy(string name, decimal price)
             : base(name, price)
         {
         }

@@ -1,12 +1,17 @@
-﻿using System;
+﻿using System.Collections.Generic;
 
 namespace Shop.Data.BusinessModels
 {
     public class AlcoholShop : BaseShop
     {
-        private string name;
 
-        public string Name { get { return name; } set { name = value; } }
+        public string Name { get; set; }
+
+        public List<Table> Tables { get; set; }
+
+        public List<Person> Waitresses { get; set; }
+
+        public Fridge Fridge { get; set; }
 
         public override bool CheckGoods(Good good)
         {

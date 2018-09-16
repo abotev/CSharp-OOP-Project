@@ -14,9 +14,13 @@ namespace Shop.Data.BusinessModels
 
         public Company Company { get; set; }
 
+        public Seller Seller { get; set; }
+
         public Address Address { get; set; }
 
         public List<Good> Goods { get; set; }
+
+        public List<Person> Clients { get; set; }
 
         public decimal Income { get; set; }
 
