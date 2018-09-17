@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Shop.Data.Interfaces;
 
 namespace Shop.Data.BusinessModels
 {
-   public class Appliance
+    public class Appliance : IStateable
     {
         public bool State { get; set; }
 

@@ -9,9 +9,12 @@ namespace Shop.Data.BusinessModels
     {
         public BaseShop()
         {
+            this.Company = new Company();
             this.Goods = new List<Good>();
             this.Clients = new List<Person>();
         }
+
+        public string Name { get; set; }
 
         public Company Company { get; set; }
 

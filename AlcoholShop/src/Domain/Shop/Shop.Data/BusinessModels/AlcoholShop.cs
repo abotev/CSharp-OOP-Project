@@ -11,8 +11,6 @@ namespace Shop.Data.BusinessModels
 
         }
 
-        public string Name { get; set; }
-
         public List<Table> Tables { get; set; }
 
         public List<Person> Waitresses { get; set; }
